@@ -1,0 +1,19 @@
+.galary__menu__item:hover {
+   transform: scale(0.88);
+   transition: all 0.3s;
+}
+.galary__menu__item {
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: Oswald;
+  line-height: 28px ;
+  user-select: none;
+  transition: all 0.3s;
+}
+
+.acviveClassMenuItemName {
+  color: red;
+  transform: scale(0.88);
+  transition: all 0.3s;
+}

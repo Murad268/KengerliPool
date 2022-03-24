@@ -1,0 +1,52 @@
+.Header {
+   height: 100vh;
+   width: 100%;
+   background: url("../../image/bg/pexels-alexandr-podvalny-1227571.jpg") center center/cover no-repeat;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.header__tittles {
+   width: 70%;
+}
+.header__tittles h3 {
+   font-size: 60px;
+   text-align: center;
+   font-weight: 900;
+   font-family: Oswald;
+   color: white;
+}
+
+.header__tittles h2 {
+   font-size: 80px;
+   text-align: center;
+   font-weight: 900;
+   font-family: Oswald;
+   color: white;
+}
+
+
+@media(max-width: 1080px) {
+   .header__tittles h2 {
+      font-size: 70px;
+   }
+
+}
+@media(max-width: 940px) {
+   .header__tittles h3 {
+      font-size: 40px;
+   }
+   .header__tittles h2 {
+      font-size: 50px;
+   }
+}
+
+@media(max-width: 440px) {
+   .header__tittles h3 {
+      font-size: 30px;
+   }
+   .header__tittles h2 {
+      font-size: 40px;
+   }
+}

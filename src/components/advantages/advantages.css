@@ -1,0 +1,82 @@
+.Advantages {
+   padding: 50px 0 50px 0;
+}
+
+.advantages__wrapper {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-template-rows: minmax(300px, auto) minmax(300px, auto) minmax(300px, auto);
+}
+
+.advantages__block1 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: url("../../image/advantages/quality.jpg") center center/cover no-repeat;
+}
+.advantages__block2 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: url("../../image/advantages/speed.jpg") center center/cover no-repeat;
+}
+.advantages__block3 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: url("../../image/advantages/claf.jpg") center center/cover no-repeat;
+}
+.advantages__block4 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: url("../../image/advantages/goodspeed.jpg") center center/cover no-repeat;
+}
+.advantages__block5 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: url("../../image/advantages/pur.jpg") center center/cover no-repeat;
+}
+.advantages__block6 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: url("../../image/advantages/dreams.jpg") center center/cover no-repeat;
+}
+.advantages__tiitles {
+   text-align: center;
+   font-size: 60px;
+   font-weight: 900;
+   font-family: Oswald;
+   margin-bottom: 20px;
+}
+
+.advantages__block__desc {
+   border-radius: 30px;
+   padding: 10px;
+   font-size: 40px;
+   font-weight: 900;
+   font-family: Oswald;
+   background: white
+}
+
+
+@media(max-width: 994px) {
+   .advantages__block__desc {
+      font-size: 25px;
+   }
+}
+
+@media(max-width: 710px) {
+   .advantages__block__desc {
+      font-size: 15px;
+   }
+}
+
+
+@media(max-width: 600px) {
+   .advantages__tiitles {
+      font-size: 40px;
+   }
+}

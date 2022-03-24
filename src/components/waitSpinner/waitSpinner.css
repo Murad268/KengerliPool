@@ -1,0 +1,11 @@
+.wait__block {
+   width: 100px;
+   height: 100px;
+   margin: 0 auto;
+}
+
+.wait__block img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
